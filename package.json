@@ -1,0 +1,25 @@
+{
+  "name": "gitlab",
+  "version": "1.0.0",
+  "description": "gitlab api",
+  "main": "app/services/roles.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app/services/roles.js 10975505",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitlab",
+    "roles",
+    "access"
+  ],
+  "author": "Bucek Marek",
+  "license": "ISC",
+  "bin": {
+    "git-roles": "app/services/roles.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "node-fetch": "^3.3.0"
+  }
+}

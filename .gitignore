@@ -1,0 +1,10 @@
+#app output
+.app
+
+#dependency directories
+node_modules/
+
+# IDE / Editor
+.idea
+.vscode
+
